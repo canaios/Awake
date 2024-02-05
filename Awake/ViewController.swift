@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         deviceView.layer.borderWidth = 2
         deviceView.layer.borderColor = UIColor.darkGray.cgColor
         deviceView.layer.cornerRadius = 10
